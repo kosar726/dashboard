@@ -1,0 +1,40 @@
+@import 'variables';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+i.bi {
+    font-size: $iconLarge;
+}
+
+i.bi.extra-large {
+    font-size: $iconExtraLarge !important;
+}
+
+a.nav-link>i.bi{
+    font-size: $iconMedium;
+}
+
+div.patient-info {
+    i.bi {
+        font-size: $iconSmall;
+    }
+}
+
+main {
+    i.bi{
+        font-size: $iconSmall;
+    }
+}
+
+.tag-button{
+    all: unset;
+    background-color: #efefef;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 4px;
+}
+
+.l-sidebar{
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
